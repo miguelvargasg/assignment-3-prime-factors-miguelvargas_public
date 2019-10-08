@@ -4,51 +4,5 @@ from prime import generate_prime_factors
 """
 The test module for Prime Factors
 """
-def test_prime_factor_1():
-    """
-    Given a prime number 1
-    """
-    primes = []
-    assert generate_prime_factors(1, primes) == primes
-
-def test_prime_factor_2():
-    """
-    Given a prime number 2
-    """
-    primes = [2]
-    assert generate_prime_factors(2, primes) == primes
-
-def test_prime_factor_3():
-    """
-    Given a prime number 3
-    """
-    primes = [3]
-    assert generate_prime_factors(3, primes) == primes
-
-def test_prime_factor_4():
-    """
-    Given a prime number 4
-    """
-    primes = [2, 2]
-    assert generate_prime_factors(4, primes) == primes
-
-def test_prime_factor_6():
-    """
-    Given a prime number 6
-    """
-    primes = [2, 3]
-    assert generate_prime_factors(6, primes) == primes
-
-def test_prime_factor_8():
-    """
-    Given a prime number 8
-    """
-    primes = [2, 2, 2]
-    assert generate_prime_factors(8, primes) == primes
-
-def test_prime_factor_9():
-    """
-    Given a prime number 9
-    """
-    primes = [3, 3]
-    assert generate_prime_factors(9, primes) == primes
+def test_prime_factor():
+    pass
