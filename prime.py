@@ -11,4 +11,6 @@ def generate_prime_factors(p, primes):
         primes = [2]
     if p == 3:
         primes = [3]
+    if p == 4:
+        primes = [2, 2]
     return primes
