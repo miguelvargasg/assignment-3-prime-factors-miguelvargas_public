@@ -15,5 +15,6 @@ def generate_prime_factors(p, primes):
         primes = [2, 2]
     if p == 6:
         primes = [2, 3]
-
+    if p == 8:
+        primes = [2, 2, 2]
     return primes

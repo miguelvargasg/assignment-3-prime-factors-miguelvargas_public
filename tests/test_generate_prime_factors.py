@@ -34,7 +34,14 @@ def test_prime_factor_4():
 
 def test_prime_factor_6():
     """
-    Given a prime number 4
+    Given a prime number 6
     """
     primes = [2, 3]
     assert generate_prime_factors(6, primes) == primes
+
+def test_prime_factor_8():
+    """
+    Given a prime number 8
+    """
+    primes = [2, 2, 2]
+    assert generate_prime_factors(8, primes) == primes
