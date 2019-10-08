@@ -8,6 +8,5 @@ def test_prime_factor():
     """
     Given a prime number
     """
-    #with pytest.raises(ValueError):
     primes = []
-    #assert generate_prime_factors(21, primes) == 21
+    assert generate_prime_factors(1, primes) == primes
