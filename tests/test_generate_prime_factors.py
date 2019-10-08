@@ -45,3 +45,10 @@ def test_prime_factor_8():
     """
     primes = [2, 2, 2]
     assert generate_prime_factors(8, primes) == primes
+
+def test_prime_factor_9():
+    """
+    Given a prime number 9
+    """
+    primes = [3, 3]
+    assert generate_prime_factors(9, primes) == primes
