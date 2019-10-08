@@ -17,3 +17,10 @@ def test_prime_factor_2():
     """
     primes = [2]
     assert generate_prime_factors(2, primes) == primes
+
+def test_prime_factor_3():
+    """
+    Given a prime number 3
+    """
+    primes = [3]
+    assert generate_prime_factors(3, primes) == primes

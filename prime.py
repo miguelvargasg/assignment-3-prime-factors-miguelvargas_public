@@ -9,4 +9,6 @@ def generate_prime_factors(p, primes):
         raise ValueError
     if p == 2:
         primes = [2]
+    if p == 3:
+        primes = [3]
     return primes
