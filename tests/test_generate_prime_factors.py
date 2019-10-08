@@ -23,3 +23,7 @@ def test_prime_factor_4():
 def test_prime_factor_6():
     primes = [2, 3]
     assert generate_prime_factors(6) == primes
+
+def test_prime_factor_8():
+    primes = [2, 2, 2]
+    assert generate_prime_factors(8) == primes
